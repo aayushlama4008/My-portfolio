@@ -1,0 +1,12 @@
+.app{
+    font-family: var(--font-base);
+    background-color: var(--primary-color);
+}
+.p-text{
+    color: var(--primary-color);
+}
+.grid-center{
+    display: grid;
+    justify-content: center;
+    place-items: center;
+}
