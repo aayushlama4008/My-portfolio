@@ -3,10 +3,17 @@
     background-color: var(--primary-color);
 }
 .p-text{
-    color: var(--primary-color);
+    color: var(--gray-color);
 }
 .grid-center{
     display: grid;
     justify-content: center;
     place-items: center;
+}
+.blue-text{
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+.black-text{
+    color: var(--black-color);
 }

@@ -1,0 +1,48 @@
+.app__header{
+    height: 100vh;
+    padding-top: 3rem;
+    min-height: 650px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+
+    background: url(../../assets/bgWhite.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat:repeat;
+
+    
+    
+    
+     
+
+}
+
+.app__borderbox{
+    border-radius: 20px;
+    background-color: var(--lightgray-color);
+    padding: 1rem 2rem;
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 1.5rem;
+}
+.app__header-text{
+    padding: 0 3rem;
+    min-height: 300px;
+
+    
+
+}
+.app__header-image{
+img{
+    
+
+    @media screen and (max-width:600px){
+       height: 250px;
+       width: 200px;
+       transition-duration: 0.7s;
+     
+    }
+    
+}
+    
+}

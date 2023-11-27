@@ -1,0 +1,35 @@
+.app__work{
+    min-height: 100vh;
+    padding: 3rem 0;
+}
+.app__work-projects{
+    padding: 6rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(160px,250px));
+
+}
+.app__work-project{
+    padding-bottom: 2rem;
+    min-height: 200px;
+    min-width: 200px;
+
+    img{
+        border-radius: 20px;
+        background-size: cover;
+    }
+}
+.app__work-links{
+    display: grid;
+    grid-template-columns: repeat(2,20px);
+    gap: 10px;
+    
+
+
+    svg{
+        color: var(--gray-color);
+        height: 25px;
+        width: 25px;
+        border-radius: 10px;
+        
+    }
+}

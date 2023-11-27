@@ -1,0 +1,25 @@
+.app__skills{
+    min-height: 100vh;
+    background-color: var(--background-color);
+
+}
+.app__skills-lang{
+    display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(100px,100px));
+   padding-bottom: 2rem;
+   
+}
+.app__skills-title {
+    padding:3rem;
+}
+.app__skills-details{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    padding: 0 5rem;
+    padding-top:5rem;
+    align-items: center;
+}
+.app__skills-year{
+    display: grid;
+    grid-template-columns: 60px 1fr;
+}

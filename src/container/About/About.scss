@@ -1,0 +1,24 @@
+.app__about{
+    min-height: 100vh;
+    background-color: var(--background-color);
+}
+.app__about-quote{
+    padding: 2rem 0;
+}
+.app__about-me{
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(160px,250px));
+    width: 100%;
+}
+.app__about-me-box{
+    min-width: 100%;
+    padding-bottom: 2rem;
+    display: grid;
+    gap: 5px;
+
+    img{
+        border-radius: 20px;
+        background-size: cover;
+    }
+}

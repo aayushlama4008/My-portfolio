@@ -1,0 +1,94 @@
+.app__footer{
+    min-height: 100vh;
+    background: url(../../assets/bgWhite.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+
+    display: grid;
+    grid-template-rows: 250px  100px 1fr ;
+
+}
+
+.app__footer-contacts{
+    display: grid;
+    gap: 5px;
+    padding-bottom: 40px;
+}
+.app__footer-email{
+    background-color: var(--white-color);
+    padding: 10px;
+    border-radius: 20px;
+    display: grid;
+    grid-auto-flow: column;
+
+    a{
+        text-decoration: none;
+        color: var(--gray-color);
+        padding-top: 10px;
+        
+
+        &:hover{
+            color: var(--black-color);
+        }
+    }
+
+}
+.app__footer-phone{
+    background-color: var(--white-color);
+    padding: 10px;
+    border-radius: 20px;
+    display: grid;
+    grid-auto-flow: column;
+
+    a{
+        text-decoration: none;
+        color: var(--gray-color);
+        padding-top: 10px;
+        
+
+        &:hover{
+            color: var(--black-color);
+        }
+    }
+
+}
+.borderbox{
+    background-color: var(--lightgray-color);
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 1.5rem;
+}
+.app__footer-main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+
+.app__footer-input{
+    line-height: 20px;
+    width: 280px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    resize: none;
+    background-color: var(--lightgray-color);
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 1.5rem;
+}
+.app__footer-form{
+
+    button{
+        background-color: var(--primary-color);
+        height: 40px;
+        width: 70%;
+        margin: 20px 40px;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        box-shadow:0 0 20px rgba(0, 0, 0, 0.1);
+
+        &:hover{
+            color: var(--black-color);
+        }
+    }
+}
